@@ -31,7 +31,7 @@ const Shop = () => {
                 const quantity = storedCart[id];
                 addedProduct.quantity = quantity;
                 // step 4: add the addedproduct to the saved cart
-                savedCart.push();
+                savedCart.push(addedProduct);
             }
             
         }
